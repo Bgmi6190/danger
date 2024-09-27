@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/danger/bgs.py",
+    "postStartCommand": "REPO_NAME=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/danger/BGS.py",
     "customizations": {
         "vscode": {
             "settings": {

@@ -13,7 +13,7 @@ from threading import Thread
 
 loop = asyncio.get_event_loop()
 
-TOKEN = '6817928348:AAEKbyuobrIG-V_8fZ-sn8EhkUIAEQTA7Ak'
+TOKEN = '7177256686:AAFt9NqlN6AFnoh4r7JK6vJ4nP0aHNga-sE'
 MONGO_URI = 'mongodb+srv://Bishal:Bishal@bishal.dffybpx.mongodb.net/?retryWrites=true&w=majority&appName=Bishal'
 FORWARD_CHANNEL_ID = -1002172184452
 CHANNEL_ID = -1002172184452
@@ -225,7 +225,7 @@ def handle_message(message):
         bot.send_message(message.chat.id, "CONTACT ADMIN - @jks6190", parse_mode='Markdown')
 
     elif message.text == "Canary Download✔️":
-        msg_text = "Download link: https://t.me/Danger_hack_ddos/19"
+        msg_text = "*Download link: https://t.me/Danger_hack_ddos/19*"
         bot.send_message(message.chat.id, msg_text, parse_mode='Markdown')
 
     elif message.text == "Contact admin✔️":
